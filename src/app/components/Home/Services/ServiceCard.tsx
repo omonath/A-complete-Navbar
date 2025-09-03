@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import Tilt from "react-parallax-Tilt";
+import Tilt from "react-parallax-tilt";
+
 //define the props type for ServiceCard
 type Props = {
   service: {
