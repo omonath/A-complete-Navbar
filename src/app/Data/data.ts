@@ -1,5 +1,5 @@
 export const BaseInfo = {
-  name: "Omokhodion Nathaniel",
+  name: "NathByte",
   position: "Full Stack Web Developer",
   description:
     "Aspiring full stack developer with a growing passion for building websites and web apps. Still learning every day and always excited to improve and take on new challenges.",
@@ -9,11 +9,11 @@ export const BaseInfo = {
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    "At NathByte warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
   client: "50+",
-  experience: "3+",
-  project: "200+",
-  website: "100+",
+  experience: "6+",
+  project: "20+",
+  website: "10+",
 };
 
 export const servicesData = [
@@ -21,60 +21,60 @@ export const servicesData = [
     id: 1,
     title: " Web Applications",
     description: "Tailored web apps built with the latest technologies.",
-    icon: "/images/s1.png",
+    icon: "/assets/s1.png",
   },
   {
     id: 2,
     title: "E-commerce Websites",
     description:
       "Secure online stores with user-friendly shopping and payments.",
-    icon: "/images/s2.png",
+    icon: "/assets/s2.png",
   },
   {
     id: 3,
     title: "API Integration",
     description:
       "Seamless integration for smooth data sharing and functionality.",
-    icon: "/images/s3.png",
+    icon: "/assets/s3.png",
   },
   {
     id: 4,
     title: "User Interfaces",
     description:
       "Engaging, responsive front-end designs for better user experiences.",
-    icon: "/images/s4.png",
+    icon: "/assets/s4.png",
   },
   {
     id: 5,
     title: "Database Solutions",
     description:
       "Efficient and scalable database management for your data needs.",
-    icon: "/images/s5.png",
+    icon: "/assets/s5.png",
   },
   {
     id: 6,
     title: "Real-Time Features",
     description: "Add live chat, notifications, and real-time data updates.",
-    icon: "/images/s6.png",
+    icon: "/assets/s6.png",
   },
   {
     id: 7,
     title: "Speed Optimization",
     description: "Boost performance with faster load times and optimization.",
-    icon: "/images/s7.png",
+    icon: "/assets/s7.png",
   },
   {
     id: 8,
     title: "Website Management",
     description: "Easy content management systems with flexible controls.",
-    icon: "/images/s8.png",
+    icon: "/assets/s8.png",
   },
 ];
 
 export const projectData = [
   {
     id: 1,
-    image: "/images/p1.png",
+    image: "/image/p1.png",
     url: "https://agency-opal-eight.vercel.app/",
   },
   {
@@ -112,68 +112,73 @@ export const projectData = [
     image: "/images/p8.png",
     url: "https://webhost-ten.vercel.app/",
   },
+  {
+    id: 9,
+    image: "/images/p8.png",
+    url: "https://webhost-ten.vercel.app/",
+  },
 ];
 
 export const skillsData = [
   {
     id: 1,
     title: "React",
-    image: "/images/react.svg",
-    percent: "90%",
+    assets: "/images/react.svg",
+    percent: 90,
   },
   {
     id: 2,
     title: "CSS",
-    image: "/images/css.svg",
-    percent: "97%",
+    assets: "/images/css.svg",
+    percent: 97,
   },
   {
     id: 3,
     title: "JavaScript",
-    image: "/images/js.svg",
-    percent: "77%",
+    assets: "/images/js.svg",
+    percent: 77,
   },
   {
     id: 4,
     title: "TypeScript",
-    image: "/images/ts.svg",
-    percent: "67%",
+    assets: "/images/ts.svg",
+    percent: 67,
   },
   {
     id: 5,
     title: "HTML",
-    image: "/images/html.svg",
-    percent: "67%",
+    assets: "/images/html.svg",
+    percent: 67,
   },
   {
     id: 6,
     title: "Node JS",
-    image: "/images/node.svg",
-    percent: "77%",
+    assets: "/images/node.svg",
+    percent: 77,
   },
   {
     id: 7,
     title: "MongoDB",
-    image: "/images/mongo.svg",
-    percent: "65%",
+    assets: "/images/mongo.svg",
+    percent: 65,
   },
   {
     id: 8,
     title: "Next JS",
-    image: "/images/next.svg",
-    percent: "85%",
+    assets: "/images/next.svg",
+    percent: 85,
   },
   {
     id: 9,
     title: "Tailwind CSS",
-    image: "/images/tailwind.svg",
-    percent: "90%",
+    assets: "/images/tailwind.svg",
+    percent: 90,
   },
   {
     id: 10,
-    title: "Git",
-    image: "/images/git.svg",
-    percent: "70%",
+    title: "Tailwind CSS",
+    assets: "/images/node.svg",
+    percent: 90,
   },
 ];
 

@@ -1,0 +1,24 @@
+import React from "react";
+import SectionHeading from "../../Helper/SectionHeading";
+import { blogs } from "@/app/Data/data";
+import BlogCard from "./BlogCard";
+
+const Blog = () => {
+  return (
+    <div className="pt-16 pb-16 bg-[#0f0715]">
+      <SectionHeading> Our Blog</SectionHeading>
+      <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-12 items-center">
+        {blogs.map((blog) => {
+          return (
+            <div key={blog.id}>
+              {/*blogcard */}
+              <BlogCard blog={blog} />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Blog;

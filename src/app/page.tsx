@@ -3,7 +3,7 @@ import Home from "./components/Home/Home";
 
 const page = () => {
   return (
-    <div className="h-[1000px]">
+    <div>
       <Home /> {/* Assuming Home is imported from the correct path */}
     </div>
   );

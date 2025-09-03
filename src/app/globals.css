@@ -1,8 +1,50 @@
 @import "tailwindcss";
-@tailwind utilities;
 
-@layer utilities {
-  .nav__link {
-    @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 text-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:ease-in-out after:origin-right;
-  }
+/* Remove @apply usage and use Tailwind classes directly in your component files (e.g., JSX/HTML).
+   If you need custom styles for pseudo-elements, define them using standard CSS: */
+
+.nav__link {
+  position: relative;
+  font-size: 1rem; /* text-base */
+  font-weight: 500; /* font-medium */
+  width: fit-content;
+  display: block;
+  color: #000; /* text-black */
+}
+
+.nav__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  background-color: #facc15; /* bg-yellow-400 */
+  width: 100%;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: right;
+}
+
+.nav__link:hover::after {
+  transform: scaleX(1);
+}
+
+.text-bg {
+  background-image: linear-gradient(to right, #636921 0%, #a9da5e 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #44028f; /* Dark purple background */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c277fa; /* Lighter purple thumb */
+  border-radius: 4px;
 }
