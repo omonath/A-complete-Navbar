@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={font.className}>
         {/* Responsive Navigation Bar */}
         {/* This will render the Nav and MobileNav components */}
-        {/* <ResponsiveNav /> */}
+        {<ResponsiveNav />}
         {children}
         {/* <Footer /> */}
         <ScrollToTop />
