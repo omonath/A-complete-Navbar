@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#d0efff] overflow-hidden relative ">
+    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0118] overflow-hidden relative ">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Left Side Content */}
@@ -28,7 +28,7 @@ const Hero = () => {
             <p
               data-aos="fade-left"
               data-aos-delay="200"
-              className="text-black md:text-base text-sm mt-6 text-opacity-60"
+              className="text-white md:text-base text-sm mt-6 text-opacity-60"
             >
               {BaseInfo.description}
             </p>

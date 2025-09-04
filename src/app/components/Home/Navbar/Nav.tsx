@@ -25,7 +25,7 @@ const Nav = ({ openNav }: props) => {
   return (
     <div
       className={`fixed ${
-        navBg ? "bg-[#240b39]" : "fixed"
+        navBg ? "bg-[#2f0d4b]" : "fixed"
       } h-[12vh] z-[10]  w-full transition-all duration-300 ease-in-out`}
     >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-80% mx-auto">
