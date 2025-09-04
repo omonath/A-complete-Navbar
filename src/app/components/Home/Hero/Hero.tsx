@@ -33,14 +33,16 @@ const Hero = () => {
               {BaseInfo.description}
             </p>
             {/* Button*/}
-            <button
+            <a
+              href="/Resume.pdf" // 👈 put your CV inside the /public folder
+              download="Nathaniel_CV.pdf"
               data-aos="zoom-in"
               data-aos-delay="300"
-              className="md:px-8 mt-8 md:py-2.5 py-1.5 text-white font-semibold rounded-md text-sm md:text-lg transition-all  flex items-center space-x-2 bg-blue-700 hover:bg-blue-900  duration-300 ease-in-out"
+              className="md:px-8 mt-8 md:py-2.5 py-1.5 text-white font-semibold rounded-md text-sm md:text-lg transition-all flex items-center space-x-2 bg-blue-700 hover:bg-blue-900 duration-300 ease-in-out"
             >
               <span>Download CV</span>
               <FaDownload />
-            </button>
+            </a>
           </div>
           {/* Right Side Content image content*/}
           <div
