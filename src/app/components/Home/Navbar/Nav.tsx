@@ -57,7 +57,9 @@ const Nav = ({ openNav }: props) => {
           {/* button can be added here */}
           <div className="flex items-center space-x-4">
             <button className="md:px-8 md:py-3 px-8 py-3 text-gray-500 font-semibold sm:text-base text-sm bg-white rounded-full hover:bg-gray-400 transition-colors duration-300 ease-in-out">
-              Hire Me
+              <a href="mailto:omokhodionn@gmail.com?subject=Hire%20Request">
+                Hire Me
+              </a>
             </button>
 
             {/* Mobile menu icon can be added here */}
