@@ -14,8 +14,15 @@ const ResponsiveNav = () => {
   return (
     // This component combines Nav and MobileNav components
     <div>
-      <Nav openNav={showNavHandler} />
-      <MobileNav showNav={showNav} closeNav={closeNavHandler} />
+      {/* Desktop Nav (visible from md and up) */}
+      <div className="hidden md:block">
+        <Nav openNav={showNavHandler} />
+      </div>
+
+      {/* Mobile Nav (visible below md) */}
+      <div className="block md:hidden">
+        <MobileNav showNav={showNav} closeNav={closeNavHandler} />
+      </div>
     </div>
   );
 };
