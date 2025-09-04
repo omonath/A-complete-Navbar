@@ -58,7 +58,9 @@ const ContactForm = () => {
         ></textarea>
         <div className="mt-4">
           <button className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full">
-            Send Message
+            <a href="mailto:yourname@email.com?subject=Contact%20from%20Portfolio&body=Hi%20there,">
+              Send Message
+            </a>
           </button>
         </div>
       </form>

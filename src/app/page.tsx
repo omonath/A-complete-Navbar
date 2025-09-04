@@ -13,15 +13,6 @@ const page = () => {
   return (
     <div>
       <Home /> {/* Assuming Home is imported from the correct path */}
-      <Hero />
-      <About />
-      <Services />
-      {/* <Project /> */}
-      <Skills />
-      <Reviews />
-      <Blog />
-      <Contact />
-      <Footer />
     </div>
   );
 };
