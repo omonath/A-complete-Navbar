@@ -7,26 +7,36 @@ const ContactInfo = () => {
     <div>
       <div className="flex item-center space-x-8">
         <div className=" w-10 h-10 md:w-16 rounded-full bg-gradient-to-r from bg-emerald-500 flex items-center justify-center flex-col">
+          <a href="tel:+2348137853483">
           <FaPhone className="w-4 h-4 md:w-7 text-white " />
+          </a>
+
         </div>
         <div>
           <h1 className="text-lg sm:text-xl text-white text-bold">Phone</h1>
           <h1 className="text-base sm:text-lg text-white text-opacity-70">
-            {contactData.phone}
+            <a href={`tel:${contactData.phone}`}>
+              {contactData.phone}
+            </a>
           </h1>
         </div>
       </div>
 
       <div className="flex item-center space-x-8 mt-6 mb-6">
         <div className=" w-10 h-10 md:w-16 rounded-full bg-gradient-to-r from bg-emerald-500 flex items-center justify-center flex-col">
-          <FaEnvelope className="w-4 h-4 md:w-7 text-white " />
+          <a href="mailto:omokhodionn@gmail.com">
+           <FaEnvelope className="w-4 h-4 md:w-7 text-white " />
+          </a>
+
         </div>
         <div>
           <h1 className="text-lg sm:text-xl text-white text-bold">
             Email Address
           </h1>
           <h1 className="text-base sm:text-lg text-white text-opacity-70">
-            {contactData.email}
+            <a href={`mailto:${contactData.email}`}>
+               {contactData.email}
+            </a>
           </h1>
         </div>
       </div>

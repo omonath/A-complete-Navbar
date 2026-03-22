@@ -11,7 +11,7 @@ export const aboutInfo = {
   description:
     "At NathByte warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
   client: "50+",
-  experience: "6+",
+  experience: "1+",
   project: "20+",
   website: "10+",
 };
@@ -184,20 +184,20 @@ export const skillsData = [
 
 export const clientReviews = [
   {
-    name: "John Doe",
+    name: "Awo Destiny",
     review:
       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
     rating: 5,
     profession: "Marketing Manager",
-    image: "/images/u1.jpg",
+    image: "/images/propic.jpeg",
   },
   {
-    name: "Jane Smith",
+    name: "Sam David",
     review:
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
     profession: "Business Owner",
-    image: "/images/u2.jpg",
+    image: "/images/propic.jpeg",
   },
   {
     name: "Michael Johnson",
@@ -205,15 +205,15 @@ export const clientReviews = [
       "Great communication and excellent results. Our new site performs beautifully.",
     rating: 4.6,
     profession: "Project Coordinator",
-    image: "/images/u3.jpg",
+    image: "/images/propic.jpeg",
   },
   {
-    name: "Emily Brown",
+    name: "Emily Sarah",
     review:
       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
     rating: 4.9,
     profession: "Creative Director",
-    image: "/images/u4.jpg",
+    image: "/images/propic.jpg",
   },
 ];
 

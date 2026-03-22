@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#140321]">
+    <div id="about" className="pt-16 pb-16 bg-[#140321]">
       {/* About section SectionHeading */}
       <SectionHeading> About Me</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
@@ -81,7 +81,7 @@ const About = () => {
               {aboutInfo.experience}
             </p>
             <p className=" text-base sm:text-lg text-gray-700 text-center">
-              months of Experience
+              years of Experience
             </p>
           </div>
           {/* {third stat} */}

@@ -1,8 +1,9 @@
 "use client";
 import { navLinks } from "@/app/constant/constant";
-import { handler } from "next/dist/build/templates/app-page";
+
 import Link from "next/link";
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+
 import { HiBars3BottomRight } from "react-icons/hi2";
 
 //define props type
@@ -31,7 +32,7 @@ const Nav = ({ openNav }: props) => {
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-80% mx-auto">
         {/* Logo can be added here */}
         <img
-          src="./assets/natlogo.png"
+          src="./assets/nathlogo1.png"
           alt="LOGO "
           width={170}
           height={170}
@@ -43,7 +44,7 @@ const Nav = ({ openNav }: props) => {
           <div className="hidden lg:flex items-center space-x-8 ">
             {navLinks.map((navlink) => {
               return (
-                <Link key={navlink.id} href={navlink.url}>
+                <Link key={navlink.id} href={navlink.url} scroll={true}>
                   <div className="group relative inline-block cursor-pointer">
                     <p className="nav__link text-white transition-colors duration-300 ease-in-out">
                       {navlink.label}
