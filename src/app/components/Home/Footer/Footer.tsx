@@ -4,7 +4,7 @@ import {  FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#0f0715]">
+    <div className="pt-14 pb-14 bg-[#0f0715]">
       
     <div className="flex justify-center items-center">
      <div>
