@@ -75,7 +75,7 @@ export const projectData = [
   {
     id: 1,
     image: "/image/p1.png",
-    url: "https://agency-opal-eight.vercel.app/",
+    url: "https://agency-opl-eight.vercel.app/",
   },
   {
     id: 2,
